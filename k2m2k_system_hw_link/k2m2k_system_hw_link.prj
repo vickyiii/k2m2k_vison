@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="ASCII"?>
+<hwlink:HwLinkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwlink="http://www.xilinx.com/acceleration/hwlink" name="k2m2k_system_hw_link" platform="/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm" systemProject="k2m2k_system" cpu="pl">
+  <configuration name="Emulation-SW" id="com.xilinx.ide.accel.config.hwlink.sw_emu.298806271">
+    <configBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="cvtcolor_bgr2gray" projectName="k2m2k_kernels">
+          <computeUnits name="cvtcolor_bgr2gray_1" slr="">
+            <args name="img_bgr" master="true" memory=""/>
+            <args name="img_gray" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="resize_accel" projectName="k2m2k_kernels">
+          <computeUnits name="resize_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows_in"/>
+            <args name="cols_in"/>
+            <args name="rows_out"/>
+            <args name="cols_out"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions">
+      <binaryContainers name="binary_container_1">
+        <kernels name="cvtcolor_bgr2gray" projectName="k2m2k_kernels">
+          <computeUnits name="cvtcolor_bgr2gray_1" slr="">
+            <args name="img_bgr" master="true" memory=""/>
+            <args name="img_gray" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="resize_accel" projectName="k2m2k_kernels">
+          <computeUnits name="resize_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows_in"/>
+            <args name="cols_in"/>
+            <args name="rows_out"/>
+            <args name="cols_out"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Emulation-HW" id="com.xilinx.ide.accel.config.hwlink.hw_emu.1921416798">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_1">
+        <kernels name="cvtcolor_bgr2gray" projectName="k2m2k_kernels">
+          <computeUnits name="cvtcolor_bgr2gray_1" slr="">
+            <args name="img_bgr" master="true" memory=""/>
+            <args name="img_gray" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="resize_accel" projectName="k2m2k_kernels">
+          <computeUnits name="resize_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows_in"/>
+            <args name="cols_in"/>
+            <args name="rows_out"/>
+            <args name="cols_out"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw_emu">
+      <binaryContainers name="binary_container_1">
+        <kernels name="cvtcolor_bgr2gray" projectName="k2m2k_kernels">
+          <computeUnits name="cvtcolor_bgr2gray_1" slr="">
+            <args name="img_bgr" master="true" memory=""/>
+            <args name="img_gray" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="resize_accel" projectName="k2m2k_kernels">
+          <computeUnits name="resize_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows_in"/>
+            <args name="cols_in"/>
+            <args name="rows_out"/>
+            <args name="cols_out"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Hardware" id="com.xilinx.ide.accel.config.hwlink.hw.138519861">
+    <configBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="cvtcolor_bgr2gray" projectName="k2m2k_kernels">
+          <computeUnits name="cvtcolor_bgr2gray_1" slr="">
+            <args name="img_bgr" master="true" memory=""/>
+            <args name="img_gray" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="resize_accel" projectName="k2m2k_kernels">
+          <computeUnits name="resize_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows_in"/>
+            <args name="cols_in"/>
+            <args name="rows_out"/>
+            <args name="cols_out"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="hwlink:LinkOptions" target="hw">
+      <binaryContainers name="binary_container_1">
+        <kernels name="cvtcolor_bgr2gray" projectName="k2m2k_kernels">
+          <computeUnits name="cvtcolor_bgr2gray_1" slr="">
+            <args name="img_bgr" master="true" memory=""/>
+            <args name="img_gray" master="true" memory=""/>
+            <args name="rows"/>
+            <args name="cols"/>
+          </computeUnits>
+        </kernels>
+        <kernels name="resize_accel" projectName="k2m2k_kernels">
+          <computeUnits name="resize_accel_1" slr="">
+            <args name="img_inp" master="true" memory=""/>
+            <args name="img_out" master="true" memory=""/>
+            <args name="rows_in"/>
+            <args name="cols_in"/>
+            <args name="rows_out"/>
+            <args name="cols_out"/>
+          </computeUnits>
+        </kernels>
+      </binaryContainers>
+    </lastBuildOptions>
+  </configuration>
+</hwlink:HwLinkProject>

@@ -1,0 +1,295 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 23 16:22:19 2021
+# Process ID: 8537
+# Current directory: /home/chaoz/Wen_workspace/k2m2k_1ppc/k2m2k_kernels/vivado_rtl_kernel
+# Command line: vivado -mode batch -source /tmp/vivado.5732443340128444325.tmp -notrace
+# Log file: /home/chaoz/Wen_workspace/k2m2k_1ppc/k2m2k_kernels/vivado_rtl_kernel/vivado.log
+# Journal file: /home/chaoz/Wen_workspace/k2m2k_1ppc/k2m2k_kernels/vivado_rtl_kernel/vivado.jou
+#-----------------------------------------------------------
+source /tmp/vivado.5732443340128444325.tmp -notrace
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/chaoz/Wen_workspace/k2m2k_1ppc/k2m2k_kernels/vivado_rtl_kernel/vivado_rtl_kernel.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [Common 17-365] Interrupt caught but 'source' cannot be canceled. Please wait for command to finish.
+INFO: [Common 17-681] Processing pending cancel.
+ERROR: [Ipptcl 7-31] Invalid table 'SCALAR_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.NUM_INPUT_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'GLOBAL_MEMORY_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.NUM_M_AXI failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M00_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M01_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M02_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M03_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M04_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M05_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M06_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M07_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M08_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M09_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M10_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M11_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M12_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M13_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M14_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M15_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M16_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M17_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M18_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M19_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M20_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M21_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M22_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M23_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M24_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M25_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M26_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M27_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M28_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M29_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M30_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M31_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M32_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M33_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M34_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M35_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M36_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M37_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M38_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M39_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M40_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M41_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M42_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M43_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M44_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M45_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M46_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M47_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M48_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M49_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M50_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M51_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M52_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M53_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M54_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M55_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M56_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M57_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M58_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M59_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M60_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M61_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M62_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'MEMORY_ARGS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.M63_AXI_NUM_ARGS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+ERROR: [Ipptcl 7-31] Invalid table 'AXIS_TABLE'.
+ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+ERROR: [IP_Flow 19-3554] GUI update of parameter PARAM_VALUE.NUM_AXIS failed.ERROR: [Common 17-39] 'get_tablespec' failed due to earlier errors.
+
+start_ip_gui: Time (s): cpu = 00:00:39 ; elapsed = 00:00:16 . Memory (MB): peak = 7437.367 ; gain = 5011.211 ; free physical = 18328 ; free virtual = 23910
+ERROR: [Common 17-39] 'start_ip_gui' failed due to earlier errors.
+
+    while executing
+"start_ip_gui -vlnv xilinx.com:ip:rtl_kernel_wizard:1.0"
+    (file "/tmp/vivado.5732443340128444325.tmp" line 12)
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 23 16:22:44 2021...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 23 16:06:37 2021
+# Process ID: 6225
+# Current directory: /home/chaoz/Wen_workspace/k2m2k_1ppc/k2m2k_kernels/vivado_rtl_kernel
+# Command line: vivado -mode batch -source /tmp/vivado.13794258062523376666.tmp -notrace
+# Log file: /home/chaoz/Wen_workspace/k2m2k_1ppc/k2m2k_kernels/vivado_rtl_kernel/vivado.log
+# Journal file: /home/chaoz/Wen_workspace/k2m2k_1ppc/k2m2k_kernels/vivado_rtl_kernel/vivado.jou
+#-----------------------------------------------------------
+source /tmp/vivado.13794258062523376666.tmp -notrace
