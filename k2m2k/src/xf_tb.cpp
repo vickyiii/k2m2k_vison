@@ -34,7 +34,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "xcl2.hpp" 
 #include <chrono>
 
-//test update
+//test update code
 
 using namespace std::chrono;
 
